@@ -1,9 +1,7 @@
-import { IMAGES } from "./IMAGES"
 export const listings = [
     {
       "id": 1,
       "description": "vue sortie temple",
-      // "image": require("../utils/vue_sortie_temple.jpg"),
       "image":new URL('./vue_sortie_temple.jpg', import.meta.url).href,
 
       "title":"Un site internet, pourquoi ?",
@@ -18,7 +16,6 @@ export const listings = [
     {
       "id": 2,
       "description": "vue expo",
-      // "image": require("../utils/vue_expo_grd_format.jpg"),
       "image":new URL('./vue_expo_grd_format.jpg', import.meta.url).href,
       "title": "Que proposons nous ?",
       "text": "            Vous souhaitez avoir un site internet à l’image de votre paroisse et" +
@@ -30,7 +27,6 @@ export const listings = [
     {
       "id": 3,
       "description": "vue console etage",
-      // "image": require("../utils/vue_console_etage.jpg"),
       "image":new URL('./vue_console_etage.jpg', import.meta.url).href,
       "title": "Une prestation Sur mesure",
       "text":  "     Nous codons votre site de A à Z , nous n’utilisons aucun système" +
@@ -46,7 +42,6 @@ export const listings = [
     {
       "id": 4,
       "description": "vue vitrail etage",
-      // "image": require("../utils/vue_vitrail_etage.jpg"),
       "image":new URL('./vue_vitrail_etage.jpg', import.meta.url).href,
       "title": "Qui sommes-nous ?",
       "text":  "      Ekklêsia Web est né d’une idée entre un ancien pasteur et un" +
