@@ -8,7 +8,7 @@ function Card() {
     const listingImage= listings.map((listing) => (
     //   <div className="grid-container">
     <div className= "box-card" key={listing.id}>
-      <img src={listing.image} alt={listing.description}/>
+      <img src={listing.image} alt={listing.description} fetchpriority="high"/>
      {/* {/* </div> */}
      
          <div className= "box-info">
