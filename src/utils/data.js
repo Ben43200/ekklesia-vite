@@ -2,7 +2,8 @@ export const listings = [
     {
       "id": 1,
       "description": "vue sortie temple",
-      "image":new URL('./vue_sortie_temple.jpg', import.meta.url).href,
+      // "image":new URL('./vue_sortie_temple.jpg', import.meta.url).href,
+      "image" : "https://res.cloudinary.com/dtvojwz5j/image/upload/v1710267505/vue_sortie_temple_fmwxs2.jpg",
 
       "title":"Un site internet, pourquoi ?",
       "text":
@@ -16,7 +17,8 @@ export const listings = [
     {
       "id": 2,
       "description": "vue expo",
-      "image":new URL('./vue_expo_grd_format.jpg', import.meta.url).href,
+      // "image":new URL('./vue_expo_grd_format.jpg', import.meta.url).href,
+      "image": "https://res.cloudinary.com/dtvojwz5j/image/upload/v1710267505/vue_expo_grd_format_qiciwy.jpg",
       "title": "Que proposons nous ?",
       "text": "            Vous souhaitez avoir un site internet à l’image de votre paroisse et" +
     "            qu'il reflète son histoire sa géographie ses valeurs et la vie de sa" +
@@ -27,7 +29,8 @@ export const listings = [
     {
       "id": 3,
       "description": "vue console etage",
-      "image":new URL('./vue_console_etage.jpg', import.meta.url).href,
+      // "image":new URL('./vue_console_etage.jpg', import.meta.url).href,
+      "image": "https://res.cloudinary.com/dtvojwz5j/image/upload/v1710267505/vue_console_etage_qoxvi8.jpg",
       "title": "Une prestation Sur mesure",
       "text":  "     Nous codons votre site de A à Z , nous n’utilisons aucun système" +
     "            tels que Wordpress ou Elementor (service payant) facilitant la" +
@@ -42,7 +45,8 @@ export const listings = [
     {
       "id": 4,
       "description": "vue vitrail etage",
-      "image":new URL('./vue_vitrail_etage.jpg', import.meta.url).href,
+      // "image":new URL('./vue_vitrail_etage.jpg', import.meta.url).href,
+      "image": "https://res.cloudinary.com/dtvojwz5j/image/upload/v1710267545/vue_vitrail_etage_wksv8q.jpg",
       "title": "Qui sommes-nous ?",
       "text":  "      Ekklêsia Web est né d’une idée entre un ancien pasteur et un" +
     "            développeur web venant de lancer sa Micro entreprise tous deux" +
