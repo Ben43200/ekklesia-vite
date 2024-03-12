@@ -14,7 +14,7 @@ import ReactDOM from "react-dom/client";
 // import Error from "./pages/error/Error";
 
 
-// import Home from "./pages/home/Home";
+import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Contact from "./pages/contact/Contact";
 
@@ -33,7 +33,7 @@ root.render(
     <Navbar />
 
     <Routes>
-      {/* <Route path="/" element={<Home />} /> */}
+      <Route path="/" element={<Home />} />
 
       {/* <Route path="/methodologie" element={<Methodologie />} />
       <Route path="/mission" element={<Mission />} />
