@@ -6,7 +6,8 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-// @import "../../css/mixinsandfunctions.scss";
+
+
 * {
   @include reset;
 }
@@ -15,7 +16,9 @@
   font-family: Montserrat, sans-serif;
   font-weight: 400;
 }
-
+body{
+  background-color: #ffffd3;
+}
 h2{
   padding-bottom:15px;
 }
@@ -28,20 +31,14 @@ h2{
   font-weight:500;
   padding-bottom:0.3rem;
 }
-// h2{
-//   padding-bottom:15px;
-// }
 
 #root {
   display: grid;
   grid-template-areas: " header " "main " "footer ";
   grid-template-rows: auto 1fr auto;
   height: 100vh;
-  // row-gap: 20px;
   text-align: justify;
   margin: 0;
-  // padding: 0px 3px;
-
   @include media(desktop) {
     // body {
     grid-template-areas:
@@ -52,9 +49,6 @@ h2{
     padding: 0;
   }
 }
-// }
-
-
 
 #root > header {
   grid-area: header;
@@ -71,45 +65,19 @@ h2{
 
 
 .box-card {
-  // display: flex;
   align-items: center;
   justify-content: center;
-  // align-items: stretch;
   place-self: center;
   justify-items: center;
-  // box-shadow: 3px 3px 7px 2px #4054b2;
-  // // width: 100%;
-  // // height: 300px;
-  // border-radius: 10px;
   display: grid;
   gap:20px;
-  // grid-template-columns: 1fr;
   grid-template-columns: 1fr;
   @include media(tablet) {
-      // background-color: red;
-      // height: 500px;
       width:auto;
     grid-template-columns: 1fr 1fr;
-  
-    // grid-template-columns: 1fr 1fr;
-  
-     
     }
 
 }
-// @include media(tablet) {
-//   .box-image {
-//     background-color: red;
-//     // height: 500px;
-//     width:auto;
-//   grid-template-columns: 1fr 1fr;
-
-//   // grid-template-columns: 1fr 1fr;
-
-   
-//   }
-// }
-
 
 // ajout scss image
 .box-card img{
@@ -118,32 +86,16 @@ h2{
   height:350px;
   object-fit: cover;
   box-shadow: 3px 3px 7px 2px #4054b2;
-  // width: 100%;
-  // height: 300px;
   border-radius: 10px;
-  
     @include media(tablet) {
-    // width:500px;
-    // // padding:40px;
-    // height:400px;
       width: 400px;
    height: 300px; 
     
 }
 }
 
-.box-card:nth-of-type(2n){
-  // border:2px solid red;
-  // justify-items: end;
-
-}
-// #root > main > div > div:nth-child(1) > img
-
-
-
 img{
   width:100%;
-//   height: 100%;
 }
 
 //positionnement des grid-container dans le #main
@@ -172,19 +124,12 @@ width:100%;
 @include media(tablet) {
 
   grid-template-columns: repeat(2,1fr);
-//   grid-template-areas: "1 2"
-//                         "1 2"
-//                        ;
-  
 }
 }
 .box-info{
   place-self: center;
   font-family: caramel cursive;
-  // font-family: questrial;
   font-family: "Questrial", sans-serif;
-  
-  // padding: 0px 3px;
   padding: 50px 3px;
   height:17rem;
   display: flex;
@@ -193,7 +138,6 @@ width:100%;
   align-items: center;
   @include media(tablet) {
   height: 15rem;
-// }
 
 }
 }
@@ -212,10 +156,6 @@ main{
 padding: 0px 4px; 
 }
 
-// .css-sghohy-MuiButtonBase-root-MuiButton-root {
-//   z-index: -9999;
-
-// }
 h1, h2 , h3, h4{
   // font-family: caramel cursive;
   font-family: 'Philosopher', sans-serif;
@@ -230,7 +170,6 @@ h2,h3{
   width:130px;
   height:40px;
   border-radius: 7px;
-  // padding:0px 10px;
   margin: 10px 0px;
   text-align: center;
   padding: 5px
@@ -243,39 +182,15 @@ h2,h3{
   width:130px;
   height:0px;
   border-radius: 7px;
-  // padding:0px 10px;
   margin: 10px 0px;
   display: flex;
-  /* flex-direction: column; */
   height: 40px;
   justify-content: center;
 }
 
 
-.grid-container .box-info:nth-child(even){
-
-    border: 10px solid red;
-    grid-column: 1;
-}
-
-.grid-container  .box-image:nth-child(odd){
-
-    border: 10px solid red;
-    grid-column:  2;
-}
 
 
-.box-info-container{
-    display: grid;
-}
-
-
-
-// @media screen and (max-width: 640px) {
-//   #main {
-//  background-color: red;
-//   }
-// }
 
 .box-info{
   // grid-column: 1;
@@ -331,10 +246,10 @@ grid-row:1;
 //   grid-column:1;
 // }
 
-#root > main > div > div:nth-child(4) > div{
+// #root > main > div > div:nth-child(4) > div{
 
-  @include media(tablet) {
-grid-column: 1;
-grid-row:1;
-}
-}
+//   @include media(tablet) {
+// grid-column: 1;
+// grid-row:1;
+// }
+// }

@@ -2,7 +2,6 @@ function Contact() {
     return (
       <main>
       <div className="App">
-        {/* <h1>Hello World</h1> */}
         Getting Started Using about:tracing Recording Tracing Runs; start with
         this, it's prerequisite for using about:tracing. How to use the Frame
         Viewer to Bust Jank; read this next, to understand how to diagnose

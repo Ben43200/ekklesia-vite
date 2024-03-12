@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-// import logo from "../../util"
 import { IMAGES } from "../../utils/IMAGES";
 import React from "react";
 import { useEffect, useRef } from "react";

@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  /* remember to define focus styles! */
+  /* tables still need 'cellspacing="0"' in the markup */
+}
+* html,
+* body,
+* div,
+* span,
+* applet,
+* object,
+* iframe,
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* p,
+* blockquote,
+* pre,
+* a,
+* abbr,
+* acronym,
+* address,
+* big,
+* cite,
+* code,
+* del,
+* dfn,
+* em,
+* font,
+* img,
+* ins,
+* kbd,
+* q,
+* s,
+* samp,
+* small,
+* strike,
+* strong,
+* sub,
+* sup,
+* tt,
+* var,
+* dl,
+* dt,
+* dd,
+* ol,
+* ul,
+* li,
+* fieldset,
+* form,
+* label,
+* legend,
+* table,
+* caption,
+* tbody,
+* tfoot,
+* thead,
+* tr,
+* th,
+* td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+* :focus {
+  outline: 0;
+}
+* body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+* ol,
+* ul {
+  list-style: none;
+}
+* table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+* caption,
+* th,
+* td {
+  text-align: left;
+  font-weight: normal;
+}
+* blockquote:before,
+* blockquote:after,
+* q:before,
+* q:after {
+  content: "";
+}
+* blockquote,
+* q {
+  quotes: "" "";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #ffffd3;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.box-info-bordered-title {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 0.3rem;
+}
+
+#root {
+  display: grid;
+  grid-template-areas: " header " "main " "footer ";
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  text-align: justify;
+  margin: 0;
+}
+@media screen and (min-width: 1025px) {
+  #root {
+    grid-template-areas: " . header ." "  . main .  " "footer footer footer ";
+    grid-template-columns: auto 1240px auto;
+    padding: 0;
+  }
+}
+
+#root > header {
+  grid-area: header;
+}
+
+#root > main {
+  grid-area: main;
+  padding: 20px 2px;
+}
+
+#root > footer {
+  grid-area: footer;
+}
+
+.box-card {
+  align-items: center;
+  justify-content: center;
+  place-self: center;
+  justify-items: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  .box-card {
+    width: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.box-card img {
+  width: 100%;
+  padding: 0;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 3px 3px 7px 2px #4054b2;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .box-card img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+.grid-container .box-image > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.box-info {
+  place-self: center;
+  font-family: caramel cursive;
+  font-family: "Questrial", sans-serif;
+  padding: 50px 3px;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .box-info {
+    height: 15rem;
+  }
+}
+
+.box-info:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .box-info:first-child {
+    font-size: 1.5rem;
+  }
+}
+
+main {
+  row-gap: 20px;
+  padding: 0px 4px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Philosopher", sans-serif;
+}
+
+h2, h3 {
+  font-size: 25px;
+}
+
+.button {
+  background-color: #131f53;
+  color: white;
+  text-decoration: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 7px;
+  margin: 10px 0px;
+  text-align: center;
+  padding: 5px;
+}
+
+.button-box {
+  background-color: #131f53;
+  color: white;
+  text-decoration: none;
+  width: 130px;
+  height: 0px;
+  border-radius: 7px;
+  margin: 10px 0px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+
+#root > main > div > div:nth-child(1) > div {
+  grid-row: 2;
+}
+@media screen and (min-width: 768px) {
+  #root > main > div > div:nth-child(1) > div {
+    grid-row: 1;
+    grid-column: 2;
+  }
+}
+
+#root > main > div > div:nth-child(2) > div {
+  grid-row: 2;
+}
+@media screen and (min-width: 768px) {
+  #root > main > div > div:nth-child(2) > div {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #root > main > div > div:nth-child(4) > div {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}/*# sourceMappingURL=home.css.map */
