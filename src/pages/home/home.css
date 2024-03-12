@@ -123,6 +123,10 @@ h2 {
   font-weight: 800;
 }
 
+.intro {
+  font-size: 1.2rem;
+}
+
 .box-info-bordered-title {
   font-size: 16px;
   font-weight: 500;

@@ -26,6 +26,15 @@ h2{
 .bold-text{
   font-weight: 800;
 }
+
+
+
+
+
+
+.intro{
+  font-size: 1.2rem;
+}
 .box-info-bordered-title{
   font-size: 16px;
   font-weight:500;
@@ -229,27 +238,3 @@ grid-column: 1;
 grid-row:1;
 }
 }
-
-// #root > main > div > div:nth-child(1) > div{
-//   grid-row:2;
-//   @include media(tablet) {
-
-//     grid-row: 1;
-//     grid-column: 2;
-//     // border: 2px solid red;
-// }
-// }
-
-
-
-// #root > main > div > div:nth-child(2) > div{
-//   grid-column:1;
-// }
-
-// #root > main > div > div:nth-child(4) > div{
-
-//   @include media(tablet) {
-// grid-column: 1;
-// grid-row:1;
-// }
-// }
