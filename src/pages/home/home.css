@@ -178,10 +178,14 @@ h2 {
   }
 }
 
+.box-image-container {
+  padding: 20px 0px 0px;
+}
+
 .box-card img {
   width: 100%;
   padding: 0;
-  height: 350px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   box-shadow: 3px 3px 7px 2px #4054b2;
@@ -224,8 +228,7 @@ img {
   place-self: center;
   font-family: caramel cursive;
   font-family: "Questrial", sans-serif;
-  padding: 50px 3px;
-  height: 17rem;
+  padding: 30px 3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -264,12 +267,13 @@ h2, h3 {
   background-color: #131f53;
   color: white;
   text-decoration: none;
-  width: 130px;
-  height: 40px;
   border-radius: 7px;
   margin: 10px 0px;
   text-align: center;
   padding: 5px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
 }
 
 .button-box {
