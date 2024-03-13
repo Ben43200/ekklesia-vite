@@ -16,7 +16,7 @@ function Card() {
          <p>{listing.text}</p>
        <div className="button-box">
          <NavLink to={`/${listing.link}`} className="button">
-                      {listing.link}
+                      {listing.linkname}
                     </NavLink>
                     </div>
                     

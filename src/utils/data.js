@@ -13,6 +13,7 @@ export const listings = [
          "            refonte de ce dernier ( si vous en avez déjà un) sera un atout" +
          "            fondamental pour dynamiser votre paroisse",
          "link": "mission",
+         "linkname":"Mission"
     },
     {
       "id": 2,
@@ -25,6 +26,7 @@ export const listings = [
     "            communauté. Nous travaillons avec les paroisses de toutes tailles," +
     "            nous vous accompagnerons tout au long de votre projet.",
     "link": "services",
+    "linkname":"Services"
     },
     {
       "id": 3,
@@ -41,6 +43,7 @@ export const listings = [
     "            ait une version écran ordinateur, une version tablette, et surtout" +
     "            une version smartphone, de plus en plus utilisée de nos jours.",
     "link": "methodologie",
+    "linkname":"Méthodologie"
     },
     {
       "id": 4,
@@ -54,6 +57,7 @@ export const listings = [
     "            pour vocation de vous aider à dynamiser votre église locale à" +
     "            travers ce média.",
     "link": "contact",
+    "linkname":"Contact"
     }
 
   ]
