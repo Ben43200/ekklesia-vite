@@ -42,26 +42,52 @@ header {
 }
 
 //logo
-.logo-1 {
-  width: 15%;
-  height: 50px;
+// .logo-1 {
+//   width: 15%;
+//   height: 50px;
 
-  z-index: 300;
-  @include media(tablet) {
-    // border-radius: 25px;
-    // height: 140px;
-    // width: 7%;
-    width: 8%;
-  height: 60px;
+//   z-index: 300;
+//   @include media(tablet) {
+//     // border-radius: 25px;
+//     // height: 140px;
+//     // width: 7%;
+//     width: 8%;
+//   height: 60px;
 
-  }
-  @include media(desktop) {
-    // border-radius: 25px;
-    // height: 140px;
-    width: 6%;
-  }
-  // padding-top: 10px;
+//   }
+//   @include media(desktop) {
+//     // border-radius: 25px;
+//     // height: 140px;
+//     width: 6%;
+//   }
+//   // padding-top: 10px;
+// }
+
+.logo-1
+  {
+    width: 100%; /* Set initial width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 50px; /* Set max-width for larger devices */
+
 }
+@media only screen and (min-width: 768px) {
+  .logo-1 {
+      max-width: 70px; /* Set max-width for larger devices */
+      // width: 100%; /* Set initial width */
+      // height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo-1 {
+      // max-width: 70px; /* Set max-width for even larger devices */
+      width: 100%; /* Set initial width */
+      height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+
 
 .menu-icon {
   display: none;
