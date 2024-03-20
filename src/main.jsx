@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+// import React from "react";
+import { BrowserRouter,  Routes, Route,  } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 // import Navbar from "./components/Navbar/Navbar";
 // import Methodologie from "./pages/Methodologie/Methodologie";
@@ -19,6 +19,7 @@ import Navbar from "./components/navbar/Navbar";
 import Contact from "./pages/contact/Contact";
 
 import Footer from "./components/footer/Footer";
+import Mission  from "./pages/mission/Mission";
 
 
 
@@ -34,7 +35,7 @@ root.render(
 
     <Routes>
       <Route path="/" element={<Home />} />
-
+      <Route path="/mission" element={<Mission />} />
       {/* <Route path="/methodologie" element={<Methodologie />} />
       <Route path="/mission" element={<Mission />} />
       <Route path="/services" element={<Service />} />
