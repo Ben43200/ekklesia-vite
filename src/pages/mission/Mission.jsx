@@ -1,5 +1,6 @@
 import List1 from "../../components/List1";
 import List2 from "../../components/List2";
+import "./mission.scss"
 
 function mission() {
   const componentsArray = [<List1 />, <List2 />];
