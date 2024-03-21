@@ -1,19 +1,18 @@
-import { dataMission } from "../../utils/dataMission";
+import List1 from "../../components/List1";
+import List2 from "../../components/List2";
 
-
-
-
- function  Mission ()  {
-    return (
-        <main>
-      <div>
-        {dataMission.map((item) => {
-          const TagName = item.tag; // Dynamically assign the tag based on the data
+function mission() {
+  const componentsArray = [<List1 />, <List2 />];
   
-          return <TagName key={item.id}>{item.content}</TagName>;
-        })}
+  return (
+    <main>
+      <div>
+        {componentsArray.map((item, id) => (
+          <div key={id}>{item}</div>
+        ))}
       </div>
-      </main>
-    );
-  };
-  export default Mission
+    </main>
+  );
+}
+
+export default mission;
