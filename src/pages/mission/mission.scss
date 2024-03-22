@@ -24,3 +24,163 @@
   
   }
   }
+
+
+
+//   @import "../../css/mixinsandfunctions.scss";
+
+.box-info-mission-sub >li{
+  list-style: none;
+}
+
+.box-info-bordered {
+    box-shadow: 3px 3px 7px 2px #4054b2;
+    padding: 10px;
+    display: grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  @include media(desktop) {
+    .box-info {
+      // width: 900px;
+      place-self: center;
+    }
+  }
+  
+///Positionnement container mission
+  .grid-container-mission{
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr;
+  @include media(tablet) {
+
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+}
+.grid-container-mission .box-image >img{
+  // object-fit: cover;
+  width:100%;
+  // background-size: cover;
+}
+
+.grid-container-mission  .box-image-mission:nth-child(4){
+  grid-row:3/4;
+}
+
+.grid-container-mission  .box-image-mission:nth-child(8){
+  grid-row:7/8;
+}
+
+
+.grid-container-mission  .box-image-mission:nth-child(8){
+  @include media(tablet) {
+
+  grid-row:4/5;
+  grid-column: 2;
+}
+}
+
+
+.box-info-mission-sub{
+  
+  // border: 2px solid black;
+  display: grid;
+  gap:10px;
+
+
+li{
+padding:0px 10px;
+}
+}
+
+
+.sub-title{
+  font-size: 25px;
+  color:black;
+  padding-top:0;
+  // text-align: left;
+}
+
+///mise en page de scss après le bouton extend +
+
+.extend-content{
+  // display: grid;
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  align-items: center;
+}
+.button-extend{
+  margin:10px 0px;
+  // background-color: red;
+}
+
+.title-extend{
+  margin:0;
+  padding-top:15px;
+}
+
+
+
+.flex-extend-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+  //taille box diapo flex-extend container
+#root > main > div.flex-extend-container > div > div{
+
+  height:100%;
+  @include media(tablet) {
+  height:300px;
+}
+}
+
+.diapo{
+  object-fit: contain;
+}
+
+
+
+
+//Positionnement des boites box-image-mission-diapo mobile desktop grid 
+
+
+#root > main > div.grid-container-mission > div:nth-child(5){
+  grid-row: 3;
+  @include media(tablet) {
+grid-row: auto;
+}}
+#root > main > div.grid-container-mission > div:nth-child(4){
+  grid-row:5;
+  @include media(tablet) {
+    grid-row: auto;
+    }}
+
+
+.box-image-mission-diapo{
+  // border: 10px solid red;
+  height:100%;
+  @include media(tablet) {
+  height:210px;
+  // height:100%;
+  @include media(desktop){
+height:300px;
+  }
+
+}
+}
+    
+
+.image-mission{
+  object-fit: cover;
+  // border: 10px solid red;
+
+}

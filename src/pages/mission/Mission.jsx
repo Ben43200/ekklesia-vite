@@ -6,11 +6,13 @@ import "./mission.scss";
 function Mission() {
   const componentsArray = [
     { id: 1, compo:      <img className="box-image-mission-diapo"  src={new URL('../../utils/vue_sortie_temple.jpg', import.meta.url).href} alt="sortie_temple" />,
-  }, // Provide path as a string
-    { id: 2, compo: <List1 /> },
+  }, 
+  { id: 2, compo: <List2 /> },
+  // Provide path as a string
       { id: 3, compo:      <img className="box-image-mission-diapo" src={new URL('../../utils/Diapositive5.webp', import.meta.url).href} alt="sortie_temple" />
   }, // Provide path as a string
-    { id: 4, compo: <List2 /> },
+    { id: 4, compo: <List1 /> },
+
     { id: 5, compo:      <img className="box-image-mission-diapo" src={new URL('../../utils/vue_vitrail_etage.jpg', import.meta.url).href} alt="sortie_temple" />}
 
   ];

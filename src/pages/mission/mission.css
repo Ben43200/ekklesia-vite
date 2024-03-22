@@ -18,4 +18,142 @@
   .box-image-mission-diapo {
     height: 300px;
   }
+}
+
+.box-info-mission-sub > li {
+  list-style: none;
+}
+
+.box-info-bordered {
+  box-shadow: 3px 3px 7px 2px #4054b2;
+  padding: 10px;
+  display: grid;
+  grid-auto-columns: auto;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  border-radius: 10px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media screen and (min-width: 1025px) {
+  .box-info {
+    place-self: center;
+  }
+}
+.grid-container-mission {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  .grid-container-mission {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-container-mission .box-image > img {
+  width: 100%;
+}
+
+.grid-container-mission .box-image-mission:nth-child(4) {
+  grid-row: 3/4;
+}
+
+.grid-container-mission .box-image-mission:nth-child(8) {
+  grid-row: 7/8;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container-mission .box-image-mission:nth-child(8) {
+    grid-row: 4/5;
+    grid-column: 2;
+  }
+}
+
+.box-info-mission-sub {
+  display: grid;
+  gap: 10px;
+}
+.box-info-mission-sub li {
+  padding: 0px 10px;
+}
+
+.sub-title {
+  font-size: 25px;
+  color: black;
+  padding-top: 0;
+}
+
+.extend-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.button-extend {
+  margin: 10px 0px;
+}
+
+.title-extend {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.flex-extend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root > main > div.flex-extend-container > div > div {
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  #root > main > div.flex-extend-container > div > div {
+    height: 300px;
+  }
+}
+
+.diapo {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#root > main > div.grid-container-mission > div:nth-child(5) {
+  grid-row: 3;
+}
+@media screen and (min-width: 768px) {
+  #root > main > div.grid-container-mission > div:nth-child(5) {
+    grid-row: auto;
+  }
+}
+
+#root > main > div.grid-container-mission > div:nth-child(4) {
+  grid-row: 5;
+}
+@media screen and (min-width: 768px) {
+  #root > main > div.grid-container-mission > div:nth-child(4) {
+    grid-row: auto;
+  }
+}
+
+.box-image-mission-diapo {
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .box-image-mission-diapo {
+    height: 210px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1025px) {
+  .box-image-mission-diapo {
+    height: 300px;
+  }
+}
+
+.image-mission {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=mission.css.map */
