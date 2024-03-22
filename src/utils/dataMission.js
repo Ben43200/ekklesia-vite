@@ -6,7 +6,7 @@
     tag: "p",
   },{
   id:2,content: "text"
-, tag:"li"},
+, tag:"p"},
   {
     id: 3,
     content:
@@ -21,6 +21,6 @@
   }, {   id: 5,
   content:
     "Un site internet offre de nombreuses opportunités pour :    Faire connaître les services qu'offre l'Eglise locale et lancer de nouvelles activités;   Créer des campagnes d'information, d'évangélisation et annoncer la Bonne Nouvelle;    Communiquer avec les paroissiens de manière personnalisée et encourager les interactions entre membres de la communauté.",
-  tag: "li",
+  tag: "p",
 },
 ];
