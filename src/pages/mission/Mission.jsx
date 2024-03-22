@@ -5,8 +5,8 @@ import "./mission.scss";
 
 function Mission() {
   const componentsArray = [
-    { id: 1, compo:      <img src={new URL('../../utils/vue_sortie_temple.jpg', import.meta.url).href} alt="sortie_temple" />,
-  }, // Provide path as a string
+    // { id: 1, compo:      <img src={new URL('../../utils/vue_sortie_temple.jpg', import.meta.url).href} alt="sortie_temple" />,
+  // }, // Provide path as a string
     { id: 2, compo: <List1 /> },
     { id: 3, compo: <List2 /> }
   ];
