@@ -156,4 +156,12 @@
 .image-mission {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.grid-box-info {
+  display: grid;
+}
+
+#root > main > div > div:nth-child(2) > div > p:nth-child(1) {
+  grid-column: 1;
 }/*# sourceMappingURL=mission.css.map */

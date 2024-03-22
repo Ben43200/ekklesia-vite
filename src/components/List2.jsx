@@ -20,7 +20,7 @@ import { dataMission } from "../utils/dataMission";
 
 function List2() {
   return (
-    <>
+    <div className="grid-box-info">
       {dataMission.map((item, id) => {
         const TagName = item.tag;
         const className = item.className;
@@ -30,7 +30,7 @@ function List2() {
           </TagName>
         );
       })}
-    </>
+    </div>
   );
 }
 
