@@ -1,3 +1,6 @@
+@import "../../css/mixinsandfunctions.scss";
+
+
 .list-1 {
     list-style: disc;
     // margin-right:40px;
@@ -7,3 +10,17 @@
     margin-left: 40px;
     // color:red;
 }
+
+
+.box-image-mission-diapo{
+    // border: 10px solid red;
+    height:100%;
+    @include media(tablet) {
+    height:210px;
+    // height:100%;
+    @include media(desktop){
+  height:300px;
+    }
+  
+  }
+  }

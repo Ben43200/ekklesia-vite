@@ -1,3 +1,21 @@
+.list-1 {
+  list-style: disc;
+}
+
 .list-1 > li {
   margin-left: 40px;
+}
+
+.box-image-mission-diapo {
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .box-image-mission-diapo {
+    height: 210px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1025px) {
+  .box-image-mission-diapo {
+    height: 300px;
+  }
 }/*# sourceMappingURL=mission.css.map */
