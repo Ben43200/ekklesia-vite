@@ -168,12 +168,14 @@ h2 {
   place-self: center;
   justify-items: center;
   display: grid;
+  gap: 20px;
   grid-template-columns: 1fr;
 }
 @media screen and (min-width: 768px) {
   .box-card {
     width: auto;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
   }
 }
 
@@ -184,7 +186,6 @@ h2 {
 .box-card img {
   width: 100%;
   padding: 0;
-  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   box-shadow: 3px 3px 7px 2px #4054b2;
