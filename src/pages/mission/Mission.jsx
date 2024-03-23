@@ -1,10 +1,9 @@
-import Component from "../../components/Component";
-import List1 from "../../components/List1";
-import List2 from "../../components/List2";
+import Component from "./Component";
+import List1 from "./List1";
+import List2 from "./List2";
 import Component2 from "./Component2";
 import Component3 from "./Component3";
 import "./mission.scss";
-// import vue_sortie_temple from '../../utils/vue_sortie_temple.jpg'; // Import the image directly if needed
 
 function Mission() {
   const componentsArray = [
@@ -21,8 +20,8 @@ function Mission() {
 
     { id: 7, compo:      <img className="box-image-mission-diapo" src={new URL('../../utils/vue_vitrail_etage.jpg', import.meta.url).href} alt="sortie_temple" />},
     { id: 8, compo: <List2 /> },
-    { id: 7, compo:      <img className="box-image-mission-diapo" src={new URL('../../utils/Diapositive7.webp', import.meta.url).href} alt="sortie_temple" />},
-    { id: 6, compo: <Component3 /> },
+    { id: 9, compo:      <img className="box-image-mission-diapo" src={new URL('../../utils/Diapositive7.webp', import.meta.url).href} alt="sortie_temple" />},
+    { id: 10, compo: <Component3 /> },
 
   ];
 
