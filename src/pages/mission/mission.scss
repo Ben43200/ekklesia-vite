@@ -91,6 +91,7 @@
   // border: 2px solid black;
   display: grid;
   gap:10px;
+  height:100%;
 
 
 li{
@@ -139,7 +140,8 @@ padding:0px 10px;
 
   height:100%;
   @include media(tablet) {
-  height:300px;
+  // height:300px;
+  // height:100%
 }
 }
 
@@ -169,7 +171,19 @@ grid-row: auto;
   // border: 10px solid red;
   height:100%;
   @include media(tablet) {
-  height:210px;
+  height:210px; 
+  // height:100%;
+  @include media(desktop){
+// height:300px;
+  }
+
+}
+}
+.diapo{
+  // border: 10px solid red;
+  height:100%;
+  @include media(tablet) {
+  height:210px; 
   // height:100%;
   @include media(desktop){
 height:300px;
@@ -177,6 +191,7 @@ height:300px;
 
 }
 }
+
     
 
 .image-mission{
