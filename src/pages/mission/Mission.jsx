@@ -3,9 +3,13 @@ import List1 from "./List1";
 import List2 from "./List2";
 import Component2 from "./Component2";
 import Component3 from "./Component3";
+import { useEffect } from "react";
 import "./mission.scss";
 
 function Mission() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const componentsArray = [
     { id: 1, compo:      <img className="box-image-mission-diapo"  src={new URL('../../utils/vue_sortie_temple.jpg', import.meta.url).href} alt="sortie_temple" />,
   }, 
