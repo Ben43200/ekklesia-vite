@@ -17,6 +17,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Contact from "./pages/contact/Contact";
+import ScrollToTop from "./components/scrolltotop/ScrollTotop.jsx";
 
 import Footer from "./components/footer/Footer";
 import Mission  from "./pages/mission/Mission";
@@ -29,7 +30,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 
   <BrowserRouter>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
 
     <Navbar />
 

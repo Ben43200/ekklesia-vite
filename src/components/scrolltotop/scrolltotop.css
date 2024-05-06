@@ -1,0 +1,28 @@
+:root {
+  --textColorRGB: 0, 0, 0;
+  --bg: white;
+}
+
+.scrollToTop__button {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 50;
+  cursor: pointer;
+  padding: 2rem;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  background: rgba(var(--textColorRGB), 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollToTop__button:after {
+  content: "\f106";
+  font-family: fontawesome;
+  font-size: 2rem;
+  vertical-align: top;
+  color: var(--bg);
+}/*# sourceMappingURL=scrolltotop.css.map */
