@@ -11,7 +11,7 @@ import ReactDOM from "react-dom/client";
 // import Realisations from "./pages/Realisations";
 // import ContactPage from "./pages/ContactPage/ContactPage";
 
-// import Error from "./pages/error/Error";
+import Error from "./pages/error/Error";
 
 
 import Home from "./pages/home/Home";
@@ -41,9 +41,9 @@ root.render(
       <Route path="/mission" element={<Mission />} />
       <Route path="/services" element={<Service />} />
       <Route path="/realisations" element={<Realisations />} />
-      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/contact" element={<ContactPage />} />*/}
 
-      <Route path="*" element={<Error />} /> */}
+      <Route path="*" element={<Error />} /> 
 
 <Route path="/contact" element={<Contact />} />
 
