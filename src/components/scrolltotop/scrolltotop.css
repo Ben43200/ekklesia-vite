@@ -20,8 +20,8 @@
 }
 
 .scrollToTop__button:after {
-  content: "\f106";
-  font-family: fontawesome;
+  content: "\f077";
+  font-family: "fontawesome";
   font-size: 2rem;
   vertical-align: top;
   color: var(--bg);
