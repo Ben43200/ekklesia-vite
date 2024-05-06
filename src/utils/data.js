@@ -12,7 +12,7 @@ export const listings = [
          "            d’Églises.Nous sommes convaincus que la création d’un site ou la" +
          "            refonte de ce dernier ( si vous en avez déjà un) sera un atout" +
          "            fondamental pour dynamiser votre paroisse",
-         "link": "mission",
+         "link": "notremission",
          "linkname":"Mission"
     },
     {

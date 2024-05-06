@@ -32,7 +32,7 @@ const Navbar = () => {
 
   const menuItemsData = [
     { title: "Accueil", url: "" },
-    { title: "Notre mission", url: "mission" },
+    { title: "Notre mission", url: "notremission" },
     { title: "Notre méthodologie", url: "methodologie" },
     { title: "Nos services", url: "services" },
     { title: "Nos réalisations", url: "realisations" },

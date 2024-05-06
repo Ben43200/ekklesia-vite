@@ -20,7 +20,7 @@ import Contact from "./pages/contact/Contact";
 import ScrollToTop from "./components/scrolltotop/ScrollTotop.jsx";
 
 import Footer from "./components/footer/Footer";
-import Mission  from "./pages/mission/Mission";
+import NotreMission from "./pages/notreMission/NotreMission.jsx";
 
 
 
@@ -36,9 +36,9 @@ root.render(
 
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/mission" element={<Mission />} />
+      <Route path="/notremission" element={<NotreMission />} />
       {/* <Route path="/methodologie" element={<Methodologie />} />
-      <Route path="/mission" element={<Mission />} />
+      <Route path="/notremission" element={<NotreMission />} />
       <Route path="/services" element={<Service />} />
       <Route path="/realisations" element={<Realisations />} />
       <Route path="/contact" element={<ContactPage />} />*/}
@@ -46,6 +46,8 @@ root.render(
       <Route path="*" element={<Error />} /> 
 
 <Route path="/contact" element={<Contact />} />
+<Route path="/notremission" element={<NotreMission />} />
+
 
 
 
